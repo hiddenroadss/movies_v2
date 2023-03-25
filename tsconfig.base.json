@@ -14,7 +14,10 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@movies-v2/shared-interfaces": ["libs/shared-interfaces/src/index.ts"],
+      "@movies-v2/shared-utils": ["libs/shared-utils/src/index.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
